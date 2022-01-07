@@ -1,5 +1,3 @@
-# SchobertKarine_3_10112021
-
 # HOMYFOOD !
 
 ## PRESENTATION DE L'ENTREPRISE.

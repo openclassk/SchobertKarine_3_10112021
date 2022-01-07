@@ -36,8 +36,8 @@ https://user-images.githubusercontent.com/89019397/144076742-5301a906-1273-46ef-
 
 ## liens 
 
- * https://github.com/openclassk/HOMYFOOD.git
+ * https://github.com/openclassk/SchobertKarine_3_10112021.git
 
- * https://openclassk.github.io/HOMYFOOD/
+ * https://openclassk.github.io/SchobertKarine_3_10112021/
 
 

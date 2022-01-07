@@ -1,0 +1,112 @@
+/*--couleur*/
+:root {
+  --violet: #a056dc;
+  --lightviolet: #FF9DA;
+  --lightvert: #99e2d0;
+  --vertpromo: #217460;
+  --lightgrey: rgb(240, 240, 240);
+  --colorclouds: #ecf0f1;
+  --concrete: #f3f1f1;
+  --colorfonctionnementli: #f6f6f6;
+  --colorblack: #000000;
+  --colorwhite: #ffffff;
+  --colorwhitesmoke: whitesmoke;
+  --colorli: #e9d9fa;
+  --colorprimary: #9356dc;
+  --colorheart: #ff79da;
+  --colorgrey: grey;
+}
+/*background-color*/
+:root {
+  --colorbakgroundfooter: rgb(53, 51, 51);
+  --colorbackgroundheader: #a3a3a354;
+  --backgroundlihover: #e9d9fa;
+}
+
+/*taille*/
+:root {
+  --font-size1: 18px;
+  --font-size2: 12px;
+  --font-size3: 25px;
+  --font-size4: 20px;
+  --font-weight: bold;
+}
+/*boxshadow*/
+:root {
+  --boxshadow: 5px 10px 10px -3px #95a5a6;
+}
+/*autre objet*/
+:root {
+  --cursor: pointer;
+}
+.btn {
+  height: 45px;
+  width: 70%;
+  max-width: 250px;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 121, 218, 100),
+    rgba(147, 86, 220, 100)
+  );
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 5px 10px 10px -3px #ffa4c3;
+  color: white;
+  font-size: var(--font-size1);
+  border: none;
+  cursor: var(--cursor);
+  margin-bottom: 40px;
+}
+
+/*footer*/
+a,
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+}
+
+/*nouveau_promo first_mobile acceuil*/
+.nouveau {
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items:center ;
+  right: 0;
+  /*top: 30px;*/
+  /*-left:65% ;*/
+  /*margin:13px 10px;*/
+  border-radius: 3px;
+  background-color: var(--lightvert);
+  color: var(--vertpromo);
+  /*padding: 5px;*/
+  width:80px ;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+.heart {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--colorblack);
+  font-size: var(--font-size3);
+  margin-left:80% ;
+  margin-top:-50px;
+}
+/*hover*/
+.fonctionnement li:hover {
+  transform: scale(1.02);
+}
+.btn_bas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
